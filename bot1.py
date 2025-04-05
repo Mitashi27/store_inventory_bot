@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import utils1 as utils
 import os
 
-BOT_TOKEN = os.getenv('7980192962:AAEat2-RxF9NJrJ2Cyf37abHCNIPM_mS1JI')
+BOT_TOKEN = os.getenv('BOT_TOKEN')
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Welcome to StoreTrackerBot!\nUse /additem, /updateitem, /checkstock, /stocksummary, or /log.")
