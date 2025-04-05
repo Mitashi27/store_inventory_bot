@@ -2,7 +2,7 @@ import json
 import os
 from datetime import datetime
 
-DATA_FILE = 'data.json'
+DATA_FILE = 'data1.json'
 
 def load_data():
     if not os.path.exists(DATA_FILE):
